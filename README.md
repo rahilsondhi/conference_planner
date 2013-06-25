@@ -19,11 +19,13 @@ As part of the interview process for a company.
 
 ## Design notes
 I thought about all the models that are required in this application:
+
 1. Talk
 2. Track
 3. Conference
 
 I broke the application into multiple small problems:
+
 1. A method that takes a file and converts each line to a `Talk` with a name
 and duration (regex).
 2. A `Track` class that has two sessions (morning and afternoon) and a public
